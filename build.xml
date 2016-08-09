@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir=".">
+    <property name="qooxdoo.sdk.path" value="/home/kreimer/dev/qooxdoo-5.0.1-sdk"/>
+    
+    
+    <target name="qxbuild" depends="qxclean">
+        <exec
+            dir="."
+            executable="${qooxdoo.sdk.path}/tool/bin/generator.py">
+            <arg line="build"/>
+        </exec>
+    </target>
+
+
+
+    <target name="qxtranslation">
+        <exec
+            dir="."
+            executable="${qooxdoo.sdk.path}/tool/bin/generator.py">
+            <arg line="translation"/>
+        </exec>
+    </target>
+
+
+
+    <target name="qxclean">
+        <exec
+            dir="."
+            executable="${qooxdoo.sdk.path}/tool/bin/generator.py">
+            <arg line="clean"/>
+        </exec>
+    </target>
+
+
+
+    <target name="qxapi">
+        <exec
+            dir="."
+            executable="${qooxdoo.sdk.path}/tool/bin/generator.py">
+            <arg line="api"/>
+        </exec>
+    </target>
+
+</project>
