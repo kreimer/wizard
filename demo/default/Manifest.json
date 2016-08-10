@@ -8,12 +8,12 @@
     
     "homepage" : "http://some.homepage.url/",
 
-    "license" : "SomeLicense",
+    "license" : "MIT",
     "authors" : 
     [
       {
-        "name" : "First Author (uid)",
-        "email" : "first.author@some.domain"
+        "name" : "Kreimer",
+        "email" : "kreimerkreimer@gmail.com"
       }
     ],
 

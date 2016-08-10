@@ -1,3 +1,8 @@
+/* ************************************************************************
+   License:
+     MIT: https://opensource.org/licenses/MIT
+     See the LICENSE file in the project's top-level directory for details.
+************************************************************************ */
 qx.Class.define("wizarddemo.VerySimpleView", {
     
     extend : qx.ui.container.Composite,

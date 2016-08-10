@@ -3,17 +3,17 @@
   {
     "name" : "wizard",
 
-    "summary" : "Custom Application",
-    "description" : "This is a skeleton for a custom application with qooxdoo.",
+    "summary" : "Wizard widget",
+    "description" : "A wizard framework for qooxdoo desktop applications.",
     
     "homepage" : "http://some.homepage.url/",
 
-    "license" : "SomeLicense",
+    "license" : "MIT",
     "authors" : 
     [
       {
-        "name" : "First Author (uid)",
-        "email" : "first.author@some.domain"
+        "name" : "Kreimer",
+        "email" : "kreimerkreimer@gmail.com"
       }
     ],
 
